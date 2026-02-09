@@ -7,6 +7,7 @@ export default function LandingPage() {
             {/* Hero Section */}
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
+                    <img src="/icon.png" alt="Usaid" className={styles.heroLogo} />
                     <div className={styles.badge}>✨ AI-Powered Decision Making</div>
                     <h1 className={styles.title}>
                         Experience the <span className={styles.gradient}>Future</span>

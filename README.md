@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="client/public/icon.png" alt="Usaid Logo" width="200" />
+</p>
+
 # 🔮 Usaid - AI-Driven Cognitive Time Simulator
 
 > **Experience the future before you choose it**
@@ -25,7 +29,7 @@ Usaid is an AI-powered decision-making tool that simulates multiple future timel
 
 **Frontend:** React, TypeScript, Vite, Zustand, React Query, Glassmorphism UI  
 **Backend:** Node.js, Express, Prisma (SQLite)  
-**AI:** Google Gemini 3 API (Gemini 2.5 for fall back)
+**AI:** Google Gemini 3 API (Gemini 2.5 for fallback)
 
 ## 🚀 Getting Started
 
