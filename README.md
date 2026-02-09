@@ -6,18 +6,26 @@ Usaid is an AI-powered decision-making tool that simulates multiple future timel
 
 ## ✨ Features
 
-- **Multi-Timeline Generation** - Get 3-5 distinct future scenarios for any decision
-- **Personalized Simulations** - AI considers your risk tolerance, priorities, and situation
-- **Outcome Metrics** - Visualize emotional, financial, career, and relationship impacts
-- **Timeline Comparison** - Compare up to 3 timelines side-by-side
-- **Follow-up Decisions** - Inject new decisions to see how they alter futures
-- **Decision History** - Track all your explored decisions
+- **🧠 Multi-Timeline Generation** - Get 3-5 distinct future scenarios for any decision using Gemini 3 Flash
+- **👤 Personalized Simulations** - AI considers your risk tolerance, priorities, and unique life situation
+- **📊 Detailed Metrics** - Visualize emotional, financial, career, and relationship impacts
+- **⚖️ Timeline Comparison** - Compare up to 3 timelines side-by-side to weigh trade-offs
+- **🔄 Follow-up Decisions** - Inject new decisions to see how they alter futures dynamically
+- **🔐 Secure Authentication** - Full sign-up/login flow with JWT security
+- **🎨 Premium Experience** - Glassmorphism UI, Dark/Light mode, and immersive sound effects
+
+## 📸 Screenshots
+
+<!-- my screenshots will goes here -->
+<div align="center">
+  <img src="https://via.placeholder.com/800x450?text=Dashboard+Preview" alt="Dashboard Preview" width="800" />
+</div>
 
 ## 🛠 Tech Stack
 
-**Frontend:** React, TypeScript, Vite, Zustand, React Query  
+**Frontend:** React, TypeScript, Vite, Zustand, React Query, Glassmorphism UI  
 **Backend:** Node.js, Express, Prisma (SQLite)  
-**AI:** Google Gemini API
+**AI:** Google Gemini 3 API (Gemini 2.5 for fall back)
 
 ## 🚀 Getting Started
 
@@ -31,8 +39,8 @@ Usaid is an AI-powered decision-making tool that simulates multiple future timel
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/usaid.git
-   cd usaid
+   git clone https://github.com/ritikiitg/Usaid.git
+   cd Usaid
    ```
 
 2. **Setup the server**
@@ -102,8 +110,8 @@ usaid/
 
 ## 📝 License
 
-Built for the Google deepmind Hackathon 2026 by ritik raj
+Built for the Google DeepMind Hackathon 2026 by **Ritik Raj**
 
 ---
 
-*Powered by Gemini 3 Flash*
+*Powered by Google Gemini*
