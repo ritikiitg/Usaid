@@ -21,9 +21,28 @@ Usaid is an AI-powered decision-making tool that simulates multiple future timel
 ## 📸 Screenshots
 
 <!-- my screenshots will goes here -->
-<div align="center">
-  <img src="https://via.placeholder.com/800x450?text=Dashboard+Preview" alt="Dashboard Preview" width="800" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/3cfddcec-4d88-4d06-929e-8d5b27688109" width="300" /><br /><sub>01</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/f0c6c8fa-7357-41e7-9905-c260feeaae4e" width="300" /><br /><sub>02</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/fb262fe0-e522-4e16-9b44-db37e0d98754" width="300" /><br /><sub>03</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/651b1856-6917-46e6-88d7-be717eddc891" width="300" /><br /><sub>04</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/b0bc022e-861c-4b0c-b1f9-92d5e206f3b7" width="300" /><br /><sub>05</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/2f239571-bd2d-4062-88f5-f9ed417b3d3d" width="300" /><br /><sub>06</sub></td>    
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/0da9ebec-4457-49a9-9a2f-e658c15b550e" width="300" /><br /><sub>07</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/c09765a4-560d-4406-8900-21e07a4a9cd8" width="300" /><br /><sub>08</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/b3c1117e-5b74-4902-a3d6-619bf2df7df2" width="300" /><br /><sub>09</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/511b3fef-afd9-4638-9d39-0c147a524bc0" width="300" /><br /><sub>10</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/e8dce624-9fda-4ce0-94fe-26e339334d5d" width="300" /><br /><sub>11</sub></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/dba319ff-04d3-4026-841c-45460f72416a" width="300" /><br /><sub>12</sub></td>
+  </tr>
+</table>
 
 ## 🛠 Tech Stack
 
