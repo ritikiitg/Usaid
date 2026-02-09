@@ -31,6 +31,65 @@ Usaid is an AI-powered decision-making tool that simulates multiple future timel
 **Backend:** Node.js, Express, Prisma (SQLite)  
 **AI:** Google Gemini 3 API (Gemini 2.5 for fallback)
 
+## 🏗️ Architecture
+
+The system follows a modern client-server architecture powered by Generative AI:
+
+```mermaid
+graph TD
+    User[User] -->|Interacts| Client[React Client]
+    Client -->|API Requests| Server[Node/Express Server]
+    
+    subgraph Backend
+    Server -->|Auth & Data| DB[(SQLite Database)]
+    Server -->|Context Construction| PromptEngine[Prompt Engine]
+    end
+    
+    subgraph AI Cloud
+    PromptEngine -->|Structured Prompt| Gemini[Google Gemini 3 Flash]
+    Gemini -->|JSON Timeline Data| PromptEngine
+    end
+    
+    PromptEngine -->|Parsed Response| Server
+    Server -->|Real-time Updates| Client
+```
+
+## 🧠 How We Used Gemini 3
+
+Usaid leverages the advanced reasoning capabilities of **Google Gemini 3** to simulate complex human life paths.
+
+### 1. Context-Aware Prompt Engineering
+We don't just ask "what happens next?". We build a rich context object for every request:
+- **User Profile**: Risk tolerance, core values, life priorities.
+- **Current State**: Age, career, location, relationship status.
+- **Decision Matrix**: The specific choice being weighed (e.g., "Quit job to start a startup").
+
+### 2. Multi-Timeline Simulation
+Gemini is instructed to generate **3 distinct timeline archetypes** concurrently:
+- **The Optimistic Path**: High risk, high reward.
+- **The Pragmatic Path**: Balanced, steady growth.
+- **The Pessimistic/Safe Path**: Low risk, potential stagnation.
+
+### 3. Structured JSON Output
+We utilize Gemini's JSON mode to ensure determinstic, parsable data for our frontend. Every event in the timeline includes:
+- `year`: Time offset
+- `event`: Description of the event
+- `impact_score`: -10 to +10 quantification of impact
+- `category`: Financial, Emotional, Career, or Relationship
+
+## 🌍 Potential Impact
+
+### Democratizing Strategic Foresight
+Corporate strategists use "Scenario Planning" to make billion-dollar decisions. Usaid brings this military-grade cognitive tool to personal life choices.
+
+### Reducing Decision Paralysis
+By making the abstract future *concrete* and *visible*, Usaid reduces anxiety and helping users make faster, more confident life pivots.
+
+### Broad Applicability
+- **Career Counseling**: Helping students choose majors.
+- **Financial Planning**: Visualizing the lifestyle impact of savings choices.
+- **Life Coaching**: Showing clients the trajectory of their habits.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
