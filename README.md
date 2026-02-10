@@ -192,7 +192,7 @@ usaid/
 
 ## 📝 License
 
-Built for the Google DeepMind Hackathon 2026 by **Ritik Raj**
+Built for the Devpost Hackathon 2026 by **Ritik Raj**
 
 ---
 
